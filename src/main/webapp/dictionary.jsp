@@ -33,6 +33,7 @@
     String result = dic.get(search);
 
     if (result !=null){
+
         out.println("Word"+ search);
         out.println("Result"+ result);
 
