@@ -12,7 +12,7 @@ public class Caculator_Servlet extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException git {
         PrintWriter writer = response.getWriter();
         String value1= request.getParameter("number1");
         String value2= request.getParameter("number2");
